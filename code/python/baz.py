@@ -1,9 +1,14 @@
-n = len
-
 def hs(n):
-while n != 1
-        if n%2==0
-                return n // 2
-        if n%2 != 0
-                return 3*n + 1
+    count = 0
+    while (n != 1):
+        print(n)
+        if (n%2==0):
+            n = n // 2
+        else:
+            n = 3*n + 1
+        count = count + 1
+    print(1)
+    print(count)
+    return None 
+
 
