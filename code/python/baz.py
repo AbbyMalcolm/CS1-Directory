@@ -1,5 +1,9 @@
 n = len
 
 def hs(n):
-    result = n // 2 or 3*n + 1
-    return result 
+while n != 1
+        if n%2==0
+                return n // 2
+        if n%2 != 0
+                return 3*n + 1
+
